@@ -1,0 +1,16 @@
+.centered {
+    display: flex;
+    display: -ms-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+}
+.Link {
+    color: inherit;
+}
+.CellButton {
+    color: inherit;
+}
