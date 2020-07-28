@@ -282,8 +282,9 @@ class App extends React.Component {
 		return (
 			<View activePanel={this.state.activePanel} popout={this.state.popout}>
 				<Panel id='main' style={{ zIndex: 1 }}>
-					{ this.state.screen &&
-					<img crossOrigin={'anonymous'} src={story_bg} style={{ height: '100vh', width: '100vw', zIndex: 2, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
+					{
+						this.state.screen &&
+							<img crossOrigin={'anonymous'} src={story_bg} style={{ height: '100vh', width: '100vw', zIndex: 2, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }} />
 					}
 					<div style={{ zIndex: 3 }}>
 						<div id='bg_shapes'/>
