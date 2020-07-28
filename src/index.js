@@ -6,9 +6,6 @@ import bridge from '@vkontakte/vk-bridge';
 import App from './App';
 // import registerServiceWorker from './sw';
 
-// Init VK  Mini App
-bridge.send('VKWebAppInit');
-
 // Если вы хотите, чтобы ваше веб-приложение работало в оффлайне и загружалось быстрее,
 // расскомментируйте строку с registerServiceWorker();
 // Но не забывайте, что на данный момент у технологии есть достаточно подводных камней
