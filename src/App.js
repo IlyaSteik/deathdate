@@ -2,7 +2,6 @@ import React from 'react';
 import bridge from '@vkontakte/vk-bridge';
 import '@vkontakte/vkui/dist/vkui.css';
 import './css/App.css'
-import eruda from 'eruda';
 import html2canvas from 'html2canvas';
 
 import { FormLayout, FormStatus, Snackbar, Select, Input, Div, Panel, Title, Headline, View, FixedLayout, Button, ScreenSpinner, platform, ANDROID } from '@vkontakte/vkui';
@@ -43,7 +42,6 @@ class App extends React.Component {
 		this.go = this.go.bind(this);
 		this.generateRandomTime = this.generateRandomTime.bind(this);
 		this.updateTime = this.updateTime.bind(this);
-		//eruda.init();
 	}
 
 	async componentDidMount () {
